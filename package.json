@@ -1,0 +1,34 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@deck.gl/experimental-layers": "6.3.2",
+    "deck.gl": "6.3.2",
+    "luma.gl": "latest",
+    "moment": "2.23.0",
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2",
+    "react-map-gl": "4.0.6",
+    "react-scripts": "2.0.3"
+  },
+  "devDependencies": {
+    "d3-scale": "^2.1.2",
+    "node-fetch": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "generate-data": "node scripts/generate-data.js"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
